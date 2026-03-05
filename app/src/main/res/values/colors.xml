@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#0077B6</color>
+    <color name="light_green">#57F268</color>
+    <color name="bright_blue">#3299FF</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="accent_blue">#0068FF</color>
+    <color name="expense_red">#DD1C1A</color>
+    <color name="income_green">#00A878</color>
+    <color name="text_primary">#052224</color>
+    <color name="text_secondary">#666666</color>
+    <color name="divider">#DDDDDD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="accent_blue_pressed">#005b8c</color>
+
+    <color name="card_bg">#F8F9FA</color>
+    <color name="chart_bg">#F0F3F5</color>
+    <color name="progress_bg">#E0E0E0</color>
+    <color name="bright_blue_light">#E6F0FF</color>
+    <color name="income_green_bg">#E8F5E9</color>
+    <color name="expense_red_bg">#FFEBEE</color>
+
+    <!-- Base colors -->
+    <color name="primary_blue_light">#6DB6FE</color>
+    <color name="light_blue_bg">#CAF0F8</color>
+    <color name="very_light_blue">#E6F7FB</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="error_red">#F44336</color>
+
+    <color name="gray">#E6E6E6</color>
+</resources>

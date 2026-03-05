@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <!-- App Logo at the top -->
+    <ImageView
+        android:id="@+id/appIllustration"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="App logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <!-- App Motto below app name -->
+    <TextView
+        android:id="@+id/appMottoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Spend Smart"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:textStyle=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appIllustration" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/light_green"
+        android:text="Log In"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:elevation="2dp"
+        android:letterSpacing="0.03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appMottoText"
+        app:layout_constraintWidth_percent="0.85"/>
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/light_green"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:letterSpacing="0.03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintWidth_percent="0.85"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

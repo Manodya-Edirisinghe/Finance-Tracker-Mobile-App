@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".FinanceTrackerApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Finance_TrackerLabExam03"
+        tools:targetApi="31">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Intro Screen -->
+        <activity
+            android:name=".IntroActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Signup Activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Analysis Activity -->
+        <activity
+            android:name=".AnalysisActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Transaction Activity -->
+        <activity
+            android:name=".TransactionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Categories Activity -->
+        <activity
+            android:name=".CategoriesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Profile Activity -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Add Transaction Form Activity -->
+        <activity
+            android:name=".AddTransactionFormActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <!-- Category Details Activity -->
+        <activity
+            android:name=".CategoryDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+
+        <!-- Analyser Activity -->
+        <activity
+            android:name=".AnalyserActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Finance_TrackerLabExam03.NoActionBar" />
+    </application>
+</manifest>

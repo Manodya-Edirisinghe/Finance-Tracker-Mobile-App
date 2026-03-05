@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spendo</string>
+    <string name="motto">Track Smart, Spend Wise.</string>
+
+    <string-array name="transaction_types">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>UPI</item>
+        <item>Net Banking</item>
+        <item>Other</item>
+    </string-array>
+</resources>
